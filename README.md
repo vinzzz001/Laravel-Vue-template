@@ -2,6 +2,6 @@
 
 ## About Laravel & Vue template project
 
-Het is een laravel&Vue template project met daar in VueX en de VueRouter. Het is bedoeld om snel aan de slag te kunnen met het programmeren van de eigen applicatie.
+Het is een laravel&Vue template project met daar in VueX en de VueRouter. Het is bedoeld om snel aan de slag te kunnen met het programmeren van jouw eigen applicatie.
 
 -   Er kunnen geen rechten aan dit project worden ontleend.
