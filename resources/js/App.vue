@@ -1,16 +1,15 @@
 <template>
     <div>
-        {{ message }}
+        <h1>{{ message }}</h1>
+        <router-view/>
     </div>
 </template>
-<script>
-const default_layout = "default";
 
+<script>
 export default {
-    computed: {},
     data() {
         return {
-            message: "Hello World",
+            message: "App Hello World",
         };
     },
 };
