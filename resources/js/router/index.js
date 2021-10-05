@@ -3,6 +3,8 @@ import VueRouter from "vue-router";
 
 import Home from '../pages/Home.vue'
 
+import dice from '../pages/Dice.vue'
+
 Vue.use(VueRouter);
 
 export default new VueRouter({
@@ -10,6 +12,11 @@ export default new VueRouter({
         {
             path: "/",
             component: Home
+        },
+
+        {
+            path: "/dice",
+            component: dice
         }
     ]
 });
