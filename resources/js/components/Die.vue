@@ -9,11 +9,8 @@
 </template>
 
 <script>
-import dieLog from "../components/die-text-log.vue";
-
 export default {
     name: "die",
-    components: { dieLog },
 
     data() {
         return {

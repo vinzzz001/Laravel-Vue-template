@@ -3,7 +3,8 @@ import VueRouter from "vue-router";
 
 import Home from '../pages/Home.vue'
 
-import dice from '../pages/Dice.vue'
+import Dice from '../pages/Dice.vue'
+import Groceries from '../pages/Groceries.vue'
 
 Vue.use(VueRouter);
 
@@ -16,7 +17,12 @@ export default new VueRouter({
 
         {
             path: "/dice",
-            component: dice
+            component: Dice
+        },
+
+        {
+            path: "/groceries",
+            component: Groceries
         }
     ]
 });
