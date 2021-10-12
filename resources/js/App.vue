@@ -1,7 +1,7 @@
 <template>
     <div>
         <h1>{{ message }}</h1>
-        <router-view/>
+        <router-view />
     </div>
 </template>
 
@@ -9,8 +9,9 @@
 export default {
     data() {
         return {
-            message: "App Hello World",
+            message: "App Hello World"
         };
-    },
+    }
 };
 </script>
+<!-- -->
